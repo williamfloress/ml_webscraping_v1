@@ -4,6 +4,8 @@ Proyecto de web scraping desarrollado con fines netamente educacionales y de inv
 
 **Autor:** William Flores
 
+**Consideracion importante:** Mercado Libre es una plataforma que cambia de forma constante sus clases CSS, IDs y estructura del frontend. Es posible que lo que hoy funcione con estos scripts mañana deje de hacerlo debido a sus actualizaciones. Si los scrapers de Mercado Libre fallan, revisa en el navegador los selectores actuales y adapta el codigo segun la estructura vigente del sitio.
+
 ---
 
 ## Descripcion del proyecto
