@@ -1,0 +1,50 @@
+# Variables de entorno (credenciales, IMAP, etc.)
+.env
+.env.local
+.env.*.local
+
+# Entorno virtual Python
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.so
+.eggs/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+
+# Archivos generados por los scrapers (opcional)
+libros.csv
+libros.json
+mercadolibre_*.json
+mercadolibre_resultados.csv
+mercadolibre_resultados.json
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Node (si se usa playwright desde npm)
+node_modules/
